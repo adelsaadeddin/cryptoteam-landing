@@ -1,5 +1,5 @@
 import {Container, ServicesList, Title, Subtitle, TitleContainer} from './Services.styles'
-import ServiceCard from "../../components/ServiceCard/ServiceCard";
+import ServiceCard from "../../ServiceCard/ServiceCard";
 import {dummyCards} from './Services.config'
 import {useEffect, useState} from "react";
 

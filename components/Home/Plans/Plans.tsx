@@ -1,4 +1,4 @@
-import PlanCard from "../../components/PlanCard/PlanCard";
+import PlanCard from "../../PlanCard/PlanCard";
 import {Container, PlansList, Title} from './Plans.styles'
 
 export default function Plans() {

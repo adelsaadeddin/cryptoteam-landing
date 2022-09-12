@@ -1,4 +1,6 @@
+// @ts-ignore
 import {NextFunctionComponent} from 'next'
+// @ts-ignore
 import styled from "styled-components";
 
 interface LayoutProps {

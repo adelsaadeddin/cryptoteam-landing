@@ -1,4 +1,4 @@
-import Table from '../../components/Table/Table';
+import Table from '../../Table/Table';
 import {cols, dummyRows} from './CoinsTable.config';
 import {Container, TableRow, Title, Subtitle} from './CoinsTable.styles';
 

@@ -1,5 +1,5 @@
 import {Container, CardsList} from './CoinsCards.styles'
-import CoinsCard from "../../components/CoinsCard/CoinsCard";
+import CoinsCard from "../../CoinsCard/CoinsCard";
 import {dummyCards} from "./CoinsCards.config";
 import {Subtitle, Title} from "../CoinsTable/CoinsTable.styles";
 

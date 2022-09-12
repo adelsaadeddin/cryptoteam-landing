@@ -1,6 +1,6 @@
 import {Container, CardsList} from './Statistics.styles'
 // @ts-ignore
-import StatisticsCard from "../../components/StatisticsCard";
+import StatisticsCard from "../../StatisticsCard";
 import {dummyCards} from "./Statistics.config";
 
 export default function Statistics() {
