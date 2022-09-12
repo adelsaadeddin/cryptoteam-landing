@@ -57,4 +57,6 @@ const CardLink = styled.div`
   color: #5180DC;
 `
 
-export {Container, CardsList, Card, CardIcon, CardLink, CardTitle, CardDescription}
+const Image = styled.img``
+
+export {Container, CardsList, Card, CardIcon, CardLink, CardTitle, CardDescription,Image}
