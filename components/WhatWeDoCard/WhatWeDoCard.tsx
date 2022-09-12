@@ -1,4 +1,4 @@
-import {CardTitle, CardLink, CardIcon, CardsList, Card, CardDescription, Container} from './WhatWeDoCard.styles'
+import {Card, CardDescription, CardIcon, CardLink, CardTitle, Image} from './WhatWeDoCard.styles'
 
 interface ICardProps {
     icon: string
@@ -9,7 +9,7 @@ interface ICardProps {
 
 const formatIcon = (icon) => {
     const path = '/icons/whatWeDo'
-    switch(icon) {
+    switch (icon) {
         case 'stats':
             return path + '/stats.svg'
         case 'handshake':
@@ -25,7 +25,7 @@ export default function WhatWeDoCard({icon, title, description, link}: ICardProp
     return (
         <Card>
             <CardIcon>
-                <img src={formatIcon(icon)} alt={icon} />
+                <Image src={formatIcon(icon)} alt={icon}/>
             </CardIcon>
             <CardTitle>
                 {title}
